@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #要备份的文件和文件夹
-BACKUP_FILES=(${HOME}/.emacs ${HOME}/.emacs.d ${HOME}/.bashrc)
+BACKUP_FILES=(${HOME}/.emacs ${HOME}/.emacs.d ${HOME}/.bashrc ${HOME}/.ssh /etc/rc.conf)
 #备份存放的位置
 BACKUP_POSITION=${HOME}/backup
 

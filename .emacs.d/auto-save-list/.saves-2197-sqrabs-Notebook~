@@ -1,8 +1,0 @@
-/scp:root@10.20.137.177:/usr/src/redhat/SPECS/wss.spec
-#_ascp_broot@10.20.137.177_b_ausr_asrc_aredhat_aSPECS_awss.spec#
-/scp:root@10.20.137.177:/usr/src/redhat/SPECS/nginx-config.spec
-#_ascp_broot@10.20.137.177_b_ausr_asrc_aredhat_aSPECS_anginx-config.spec#
-/scp:root@10.20.137.177:/usr/src/redhat/SPECS/openldap23.spec
-#_ascp_broot@10.20.137.177_b_ausr_asrc_aredhat_aSPECS_aopenldap23.spec#
-/scp:root@10.20.137.177:/usr/src/redhat/SPECS/tokyocabinet.spec
-#_ascp_broot@10.20.137.177_b_ausr_asrc_aredhat_aSPECS_atokyocabinet.spec#

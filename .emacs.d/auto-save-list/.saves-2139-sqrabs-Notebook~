@@ -1,8 +1,0 @@
-/scp:root@192.168.1.105:/usr/src/redhat/SPECS/python26.spec
-#_ascp_broot@192.168.1.105_b_ausr_asrc_aredhat_aSPECS_apython26.spec#
-/scp:root@192.168.1.105:/usr/src/redhat/SPECS/jdk-config.spec
-#_ascp_broot@192.168.1.105_b_ausr_asrc_aredhat_aSPECS_ajdk-config.spec#
-/scp:root@192.168.1.105:/usr/src/redhat/SPECS/tokyocabinet-java.spec
-#_ascp_broot@192.168.1.105_b_ausr_asrc_aredhat_aSPECS_atokyocabinet-java.spec#
-/scp:root@192.168.1.105:/usr/src/redhat/SPECS/tokyocabinet.spec
-#_ascp_broot@192.168.1.105_b_ausr_asrc_aredhat_aSPECS_atokyocabinet.spec#
