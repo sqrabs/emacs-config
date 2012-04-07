@@ -4,3 +4,4 @@
 (setq yas/trigger-key (kbd "C-c <kp-multiply>"))
 (yas/initialize)
 (yas/load-directory "~/.emacs.d/plugins/yasnippet/snippets")
+(yas/load-directory "~/.emacs.d/plugins/django-mode/snippets")

@@ -9,6 +9,11 @@
 (require 'pydb)
 (autoload 'pydb "pydb" "Python Debugger mode via GUD and pydb" t)
 
+;配置django-mode
+(add-to-list 'load-path "~/.emacs.d/plugins/django-mode")
+(require 'django-html-mode)
+(add-to-list 'auto-mode-alist '("\\.html$" . django-html-mode))
+
 ;配置iPython作为默认shell
 (add-to-list 'load-path "~/.emacs.d/plugins/ipython")
 (require 'anything-ipython)
@@ -132,7 +137,7 @@
            (local-file (file-relative-name
                         temp-file
                         (file-name-directory buffer-file-name))))
-      (list "epylint" (list local-file))))
+      (list "/usr/local/bin/epylint" (list local-file))))
 
   (add-to-list 'flymake-allowed-file-name-masks
                '("\\.py\\'" flymake-pylint-init)))
