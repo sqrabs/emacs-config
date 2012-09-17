@@ -42,6 +42,7 @@
 ;;启用行号
 (global-linum-mode t)
 (setq linum-format "%2d|")
+(setq column-number-mode t)
 
 ;启用ido模式
 (ido-mode t)

@@ -4,6 +4,8 @@
 (add-to-list 'interpreter-mode-alist '("python" . python-mode))
 (add-to-list 'load-path "~/.emacs.d/plugins/python-mode")
 (require 'python-mode)
+(add-to-list 'load-path "~/.emacs.d/plugins/python.el")
+(require 'python)
 
 (add-to-list 'load-path "~/.emacs.d/plugins/pydb")
 (require 'pydb)
