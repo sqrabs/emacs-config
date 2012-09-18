@@ -44,6 +44,10 @@
 (setq linum-format "%2d|")
 (setq column-number-mode t)
 
+;;启用powerline
+(add-to-list 'load-path "~/.emacs.d/plugins/emacs-powerline")
+(require 'powerline)
+
 ;启用ido模式
 (ido-mode t)
 

@@ -129,6 +129,15 @@
 ;映射tab键
 (define-key py-mode-map "\t" 'ryan-python-tab)
 
+(defvar ac-source-python
+      '((candidates .
+		(lambda ()
+		  (mapcar '(lambda (completion)
+			     (first (last (split-string completion "\\." t))))
+			  (python-symbol-completions (python-partial-symbol)))))))
+    (add-hook 'python-mode-hook
+	  (lambda() (setq ac-sources '(ac-source-python))))
+
 ;自动检错
 (add-to-list 'load-path "~/.emacs.d/plugins/pylint")
 (load-library "pylint")
