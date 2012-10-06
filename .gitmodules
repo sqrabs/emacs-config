@@ -13,3 +13,6 @@
 [submodule ".emacs.d/plugins/tabbar"]
 	path = .emacs.d/plugins/tabbar
 	url = https://github.com/dholm/tabbar.git
+[submodule ".emacs.d/plugins/django-mode"]
+	path = .emacs.d/plugins/django-mode
+	url = https://github.com/myfreeweb/django-mode.git

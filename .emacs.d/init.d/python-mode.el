@@ -11,6 +11,7 @@
 
 ;配置django-mode
 (add-to-list 'load-path "~/.emacs.d/plugins/django-mode")
+(require 'django-mode)
 (require 'django-html-mode)
 (add-to-list 'auto-mode-alist '("\\.html$" . django-html-mode))
 
