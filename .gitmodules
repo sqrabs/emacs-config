@@ -1,3 +1,6 @@
 [submodule ".emacs.d/plugins/auto-complete"]
 	path = .emacs.d/plugins/auto-complete
 	url = https://github.com/auto-complete/auto-complete.git
+[submodule ".emacs.d/plugins/emacs-powerline"]
+	path = .emacs.d/plugins/emacs-powerline
+	url = git://github.com/jonathanchu/emacs-powerline.git
