@@ -7,3 +7,6 @@
 [submodule ".emacs.d/plugins/yasnippet"]
 	path = .emacs.d/plugins/yasnippet
 	url = https://github.com/capitaomorte/yasnippet
+[submodule ".emacs.d/plugins/coffee-mode"]
+	path = .emacs.d/plugins/coffee-mode
+	url = git://github.com/defunkt/coffee-mode.git
