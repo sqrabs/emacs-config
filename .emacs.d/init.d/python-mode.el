@@ -4,8 +4,6 @@
 (add-to-list 'interpreter-mode-alist '("python" . python-mode))
 (add-to-list 'load-path "~/.emacs.d/plugins/python-mode")
 (require 'python-mode)
-(add-to-list 'load-path "~/.emacs.d/plugins/python.el")
-(require 'python)
 
 (add-to-list 'load-path "~/.emacs.d/plugins/pydb")
 (require 'pydb)
@@ -57,6 +55,7 @@
 
 ;;设置自动完成
 (add-to-list 'load-path "~/.emacs.d/plugins/auto-complete")
+(add-to-list 'load-path "~/.emacs.d/plugins/auto-complete/lib/popup")
 (require 'auto-complete-config)
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/plugins/auto-complete/ac-dict")
 (ac-config-default)
@@ -128,15 +127,6 @@
  
 ;映射tab键
 (define-key py-mode-map "\t" 'ryan-python-tab)
-
-(defvar ac-source-python
-      '((candidates .
-		(lambda ()
-		  (mapcar '(lambda (completion)
-			     (first (last (split-string completion "\\." t))))
-			  (python-symbol-completions (python-partial-symbol)))))))
-    (add-hook 'python-mode-hook
-	  (lambda() (setq ac-sources '(ac-source-python))))
 
 ;自动检错
 (add-to-list 'load-path "~/.emacs.d/plugins/pylint")
