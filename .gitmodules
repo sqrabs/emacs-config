@@ -4,3 +4,6 @@
 [submodule ".emacs.d/plugins/emacs-powerline"]
 	path = .emacs.d/plugins/emacs-powerline
 	url = git://github.com/jonathanchu/emacs-powerline.git
+[submodule ".emacs.d/plugins/yasnippet"]
+	path = .emacs.d/plugins/yasnippet
+	url = https://github.com/capitaomorte/yasnippet
